@@ -1,0 +1,126 @@
+.parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.childOne{
+  width: 50%;
+  height: auto;
+  padding:2%;
+  border:1px solid #ddd;
+  margin:2%;
+  box-shadow: 3px 3px 3px black;
+  border-radius: 20px;
+
+}
+.childTwo{
+  width:70%;
+  padding:2%;
+  border: 1px solid #ddd;
+  margin:2%;
+}
+.parent>div{
+  padding:2%;
+  border:1px solid #ddd;
+  margin:2%;
+  text-align: center;
+}
+img{
+width: 50%;
+height: 30%;
+display:block;
+margin-left:auto;
+margin-right: auto;
+}
+/* for small screen mobiles*/
+@media only screen and (min-width:320px) and (max-width:480px){
+  .parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .childOne{
+    width:92%;
+    padding:2%;
+    border:1px solid #ddd;
+    margin:2%;
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius: 20px;
+    background-color: pink;
+  }
+  .childTwo{
+    width:92%;
+    padding:2%;
+    border: 1px solid #ddd;
+    margin:2%;
+  }
+}
+/* for screen tab*/
+@media only screen and (min-width:481px) and (max-width:768px){
+  .parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .childOne{
+    width:92%;
+    padding:2%;
+    border:1px solid #ddd;
+    margin:2%;
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius: 20px;
+    background-color: red;
+  }
+  .childTwo{
+    width:92%;
+    padding:2%;
+    border: 1px solid #ddd;
+    margin:2%;
+  }
+}
+/*for laptop screens*/
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .childOne{
+    width:50%;
+    padding:2%;
+    border:1px solid #ddd;
+    margin:2%;
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius: 20px;
+    background-color: grey;
+  }
+  .childTwo{
+    width:50%;
+    padding:2%;
+    border: 1px solid #ddd;
+    margin:2%;
+  }
+}
+/*for big screens*/
+@media only screen and (min-width:1025px) and (max-width:1550px){
+  .parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .childOne{
+    width:50%;
+    padding:2%;
+    border:1px solid #ddd;
+    margin:2%;
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius: 20px;
+    background-color: green;
+  }
+  .childTwo{
+    width:50%;
+    padding:2%;
+    border: 1px solid #ddd;
+    margin:2%;
+  }
+}
