@@ -3,6 +3,43 @@
     "name":"Madhavi",
     "label":"student",
     "email":"madhavi.manasareddy@gmail.com"
-
+  },
+  "career":{
+         "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+      },
+  "education":[
+    {
+      "degree":"B-Tech(Information Technology)",
+    "institute":"PVPSIT",
+    "data":["2016-20","9.2"]
+  },
+  {
+    "degree":"Intermediate(M.P.C)",
+    "institute":"Narayana Junior College",
+    "data":["2014-16","96%"]
+  },
+  {
+    "degree":"S.S.C",
+    "institute":"Narayana",
+    "data":["2014","9.5"]
   }
+],
+"skills":[
+  {
+    "title":"langueges",
+    "content":["C","Python","C++","Java","PHP","R"]
+  },
+  {
+    "title":"DataBase",
+    "content":["SQL","MongoDB","MySql"]
+  },
+  {
+    "title":"Web Technologies",
+    "content":["HTML","CSS","JavaScript","PHP"]
+  },
+  {
+    "title":"Frameworks",
+    "content":["Django","CodeIgniter"]
+  }
+]
 }
